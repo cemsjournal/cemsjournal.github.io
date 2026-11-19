@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B2A4A"/>
+      <stop offset="100%" stop-color="#144372"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E5BE53"/>
+      <stop offset="100%" stop-color="#B88A1E"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="url(#bg)"/>
+  <rect x="6" y="6" width="108" height="108" rx="19" stroke="url(#gold)" stroke-width="2" stroke-opacity="0.7"/>
+  <!-- Open Book / Journal Symbol -->
+  <path d="M28 42C28 38.6863 30.6863 36 34 36H56C58.2091 36 60 37.7909 60 40V84C60 81.7909 58.2091 80 56 80H34C30.6863 80 28 77.3137 28 74V42Z" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M92 42C92 38.6863 89.3137 36 86 36H64C61.7909 36 60 37.7909 60 40V84C60 81.7909 61.7909 80 64 80H86C89.3137 80 92 77.3137 92 74V42Z" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Medical Cross & Engineering Gear Accent -->
+  <circle cx="60" cy="27" r="7" fill="url(#gold)"/>
+  <path d="M60 23.5V30.5M56.5 27H63.5" stroke="#0B2A4A" stroke-width="2" stroke-linecap="round"/>
+  <!-- Text Lines -->
+  <path d="M36 48H52M36 56H52M36 64H48" stroke="#E5BE53" stroke-width="2" stroke-linecap="round"/>
+  <path d="M68 48H84M68 56H84M68 64H80" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+  <text x="60" y="102" text-anchor="middle" fill="#E5BE53" font-family="Georgia, serif" font-weight="bold" font-size="14" letter-spacing="2">JoES</text>
+</svg>

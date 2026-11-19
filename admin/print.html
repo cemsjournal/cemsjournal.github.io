@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JoES Issue Writer &amp; A4 PDF Generator</title>
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/print.css" />
+</head>
+<body>
+  <div class="print-toolbar">
+    <div style="display:flex; align-items:center; gap:12px;">
+      <img src="../assets/img/logo.svg" alt="JoES" style="width:34px;height:34px;"/>
+      <div>
+        <strong>JoES Issue Composer &amp; A4 PDF Generator</strong>
+        <div style="font-size:0.78rem; color:#CBD5E1;">Write your issue → Preview A4 layout → Save as PDF → Upload in Admin</div>
+      </div>
+    </div>
+    <div style="display:flex; gap:10px; align-items:center;">
+      <a href="index.html" class="btn btn-outline btn-sm">← Admin Panel</a>
+      <button type="button" class="btn btn-gold btn-sm" id="print-pdf-btn">🖨️ Save / Print A4 PDF</button>
+    </div>
+  </div>
+
+  <div class="print-workspace">
+    <div class="editor-pane">
+      <h3 style="margin-bottom:14px;">Issue Details</h3>
+      <div class="form-group">
+        <label>Language / Direction</label>
+        <select class="select" id="p-lang">
+          <option value="en">English (LTR)</option>
+          <option value="ar">العربية (RTL)</option>
+        </select>
+      </div>
+      <div class="form-group"><label>Volume &amp; Edition</label><input class="input" id="p-vol" value="Volume 1 · Edition 2"/></div>
+      <div class="form-group"><label>Publication Date</label><input class="input" id="p-date" value="December 2026"/></div>
+      <div class="form-group"><label>Issue Subtitle</label><input class="input" id="p-sub" value="Engineering, Medical Sciences &amp; Applied Mathematics"/></div>
+
+      <hr style="border:none; border-top:1px solid var(--border); margin:18px 0;"/>
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+        <h3 style="margin:0;">Articles</h3>
+        <button type="button" class="btn btn-primary btn-sm" id="add-art-btn">+ Add Article</button>
+      </div>
+      <div id="articles-editor-list"></div>
+    </div>
+
+    <div class="preview-pane" id="a4-preview"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="../assets/js/config.js"></script>
+  <script src="../assets/js/default-data.js"></script>
+  <script src="../assets/js/i18n.js"></script>
+  <script src="../assets/js/store.js"></script>
+  <script src="../assets/js/print.js"></script>
+</body>
+</html>
