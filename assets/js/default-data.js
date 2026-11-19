@@ -35,7 +35,7 @@ window.JOES_DEFAULT_DATA = {
       pub_date: "June 2018",
       title_en: "Volume 1 · Edition 1 — June 2018",
       title_ar: "المجلد الأول · العدد الأول — يونيو 2018",
-      cover_url: "assets/img/cover-vol1.svg",
+      cover_url: "assets/img/cover-vol1.svg?v=2",
       pdf_en_url: "",
       pdf_ar_url: "",
       created_at: "2018-06-01T00:00:00Z"

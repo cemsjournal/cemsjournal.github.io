@@ -71,7 +71,7 @@
   function renderHome(db) {
     const s = db.settings;
     const latest = db.issues[0] || {};
-    const coverImg = latest.cover_url || "assets/img/cover-vol1.svg";
+    const coverImg = latest.cover_url || "assets/img/cover-vol1.svg?v=2";
 
     document.getElementById("page-content").innerHTML = `
       <section class="hero">
@@ -157,7 +157,7 @@
 
   function renderCoverPage(db) {
     const latest = db.issues[0] || {};
-    const coverImg = latest.cover_url || "assets/img/cover-vol1.svg";
+    const coverImg = latest.cover_url || "assets/img/cover-vol1.svg?v=2";
     document.getElementById("page-content").innerHTML = `
       <section class="page-hero">
         <div class="container">
