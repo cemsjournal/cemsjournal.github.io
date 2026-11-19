@@ -104,7 +104,7 @@ window.JOES_LAYOUT = {
             <div class="footer-grid">
               <div>
                 <h4>${I18N.pick(s, "name")} (${s.abbr || "JoES"})</h4>
-                <p style="font-size:0.9rem; color:#94A3B8; margin:0 0 12px;">${I18N.pick(s, "subtitle")}</p>
+                ${I18N.pick(s, "subtitle") ? `<p style="font-size:0.9rem; color:#94A3B8; margin:0 0 12px;">${I18N.pick(s, "subtitle")}</p>` : ""}
                 <p style="font-size:0.86rem; margin:0;">🌐 ${s.website || "www.aes.edu.sd"} &nbsp;|&nbsp; ✉️ ${s.email || "info@aes.edu.sd"}</p>
               </div>
               <div>

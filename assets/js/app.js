@@ -79,7 +79,7 @@
           <div>
             <span class="hero-kicker">✦ ${I18N.t("hero_kicker")}</span>
             <h1>${I18N.pick(s, "name")} (${s.abbr || "JoES"})</h1>
-            <p class="hero-desc">${I18N.pick(s, "subtitle")}</p>
+            ${I18N.pick(s, "subtitle") ? `<p class="hero-desc">${I18N.pick(s, "subtitle")}</p>` : ""}
             <div class="hero-actions">
               <a href="volume.html?v=${latest.volume_id || 'vol-1'}" class="btn btn-gold">${I18N.t("hero_cta_latest")}</a>
               <a href="page.html?slug=regulations" class="btn btn-outline">${I18N.t("hero_cta_guidelines")}</a>

@@ -3,8 +3,8 @@
 // =========================================================
 
 (function () {
-  const LS_KEY = "joes_local_db_v2";
-  try { localStorage.removeItem("joes_local_db_v1"); } catch {}
+  const LS_KEY = "joes_local_db_v3";
+  try { localStorage.removeItem("joes_local_db_v1"); localStorage.removeItem("joes_local_db_v2"); } catch {}
   const cfg = window.JOES_CONFIG || {};
   const isLive = Boolean(cfg.SUPABASE_URL && cfg.SUPABASE_ANON_KEY && window.supabase);
 
