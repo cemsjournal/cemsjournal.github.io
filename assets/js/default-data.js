@@ -5,10 +5,10 @@
 window.JOES_DEFAULT_DATA = {
   settings: {
     abbr: "JoES",
-    name_en: "Journal of Engineering & Medical Sciences",
-    name_ar: "مجلة العلوم الهندسية والطبية",
+    name_en: "Journal of Engineering Sciences",
+    name_ar: "مجلة العلوم الهندسية",
     subtitle_en: "Peer-Reviewed Academic Journal · Academy of Engineering Sciences",
-    subtitle_ar: "مجلة علمية محكّمة · أكاديمية العلوم الهندسية والطبية",
+    subtitle_ar: "مجلة علمية محكّمة · أكاديمية العلوم الهندسية",
     banner_enabled: true,
     banner_text_en: "Stay tuned for the upcoming issue on 25/12/2026 — JoES",
     banner_text_ar: "ترقبوا العدد القادم بتاريخ 25/12/2026 — JoES",
@@ -44,7 +44,7 @@ window.JOES_DEFAULT_DATA = {
 
   board: [
     { id: "b-1", group: "leadership", role_en: "General Manager", role_ar: "المدير العام", name_en: "Prof. Mohamed Ali Bashir", name_ar: "أ.د. محمد علي بشير", affiliation_en: "Academy of Engineering Sciences", affiliation_ar: "أكاديمية العلوم الهندسية", sort_order: 1 },
-    { id: "b-2", group: "leadership", role_en: "Editor-in-Chief", role_ar: "رئيس التحرير", name_en: "Mohamed Ali Bashir", name_ar: "محمد علي بشير", affiliation_en: "Journal of Engineering & Medical Sciences", affiliation_ar: "مجلة العلوم الهندسية والطبية", sort_order: 2 },
+    { id: "b-2", group: "leadership", role_en: "Editor-in-Chief", role_ar: "رئيس التحرير", name_en: "Mohamed Ali Bashir", name_ar: "محمد علي بشير", affiliation_en: "Journal of Engineering Sciences", affiliation_ar: "مجلة العلوم الهندسية", sort_order: 2 },
     { id: "b-3", group: "editors", role_en: "Associate Editor", role_ar: "المحرر المشارك", name_en: "Aatif Osman Altahir Abkar", name_ar: "عاطف عثمان الطاهر أبكر", affiliation_en: "Editorial Board", affiliation_ar: "هيئة التحرير", sort_order: 3 },
     { id: "b-4", group: "editors", role_en: "Editorial Assistant", role_ar: "مساعد التحرير", name_en: "Dr. Zeinab Mahmoud Omer", name_ar: "د. زينب محمود عمر", affiliation_en: "Editorial Board", affiliation_ar: "هيئة التحرير", sort_order: 4 },
 

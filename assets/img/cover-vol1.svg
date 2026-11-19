@@ -45,9 +45,9 @@
 
   <!-- Title -->
   <text x="300" y="295" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, serif" font-size="30" font-weight="bold" letter-spacing="1">JOURNAL OF ENGINEERING</text>
-  <text x="300" y="335" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, serif" font-size="30" font-weight="bold" letter-spacing="1">&amp; MEDICAL SCIENCES</text>
+  <text x="300" y="335" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, serif" font-size="30" font-weight="bold" letter-spacing="1">SCIENCES</text>
 
-  <text x="300" y="382" text-anchor="middle" fill="#E5BE53" font-family="Arial, sans-serif" font-size="22" font-weight="bold">مجلة العلوم الهندسية والطبية</text>
+  <text x="300" y="382" text-anchor="middle" fill="#E5BE53" font-family="Arial, sans-serif" font-size="22" font-weight="bold">مجلة العلوم الهندسية</text>
 
   <line x1="160" y1="412" x2="440" y2="412" stroke="url(#goldGrad)" stroke-width="2"/>
   <text x="300" y="442" text-anchor="middle" fill="#CBD5E1" font-family="Georgia, serif" font-size="14" font-style="italic">Academy of Engineering Sciences Journal</text>
